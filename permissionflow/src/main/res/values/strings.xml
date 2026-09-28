@@ -1,0 +1,9 @@
+<resources>
+    <string name="permissionflow_allow">Allow</string>
+    <string name="permissionflow_not_now">Not now</string>
+    <string name="permissionflow_open_settings">Open settings</string>
+    <string name="permissionflow_request_title">Permission needed</string>
+    <string name="permissionflow_request_body">This feature needs a permission to work.</string>
+    <string name="permissionflow_denied_title">Permission turned off</string>
+    <string name="permissionflow_denied_body">To use this feature, allow the permission in the app settings.</string>
+</resources>
