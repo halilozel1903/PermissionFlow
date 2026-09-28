@@ -309,7 +309,12 @@ private fun Viewfinder() {
             .background(Color(0xFF1B1F24), RoundedCornerShape(20.dp)),
         contentAlignment = Alignment.Center,
     ) {
-        Canvas(Modifier.size(width = 220.dp, height = 140.dp)) {
+        Canvas(
+            Modifier
+                .align(Alignment.TopCenter)
+                .padding(top = 22.dp)
+                .size(width = 220.dp, height = 120.dp),
+        ) {
             val len = 28.dp.toPx()
             val stroke = 4.dp.toPx()
             val w = size.width
